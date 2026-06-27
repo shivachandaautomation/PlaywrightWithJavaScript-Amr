@@ -1,0 +1,15 @@
+🤯 HEADED 🆚 HEADLESS in 🎭 Playwright
+
+👀 HEADED
+🟢 Browser Visible
+🐞 Easy Debugging
+
+⚡ HEADLESS
+🔵 Browser Hidden
+🚀 Faster Execution
+
+💚 headless: false
+💙 headless: true
+
+🛠 DEVELOPMENT ➜ 👀 HEADED
+🚀 CI/CD ➜ ⚡ HEADLESS
