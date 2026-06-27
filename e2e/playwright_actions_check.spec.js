@@ -27,6 +27,7 @@ test('actions_check practice', async ({page}) => {
     await page.getByText('Check Box').click()
     await page.locator("//span[normalize-space()='Radio Button']").click();
     
+    
     await page.locator("//input[@id='yesRadio']").check();
     await page.getByRole('radio', { name: 'Yes' }).check()
     await page.getByRole('radio', { name: /Yes/i }).check()
