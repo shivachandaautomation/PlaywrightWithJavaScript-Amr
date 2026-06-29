@@ -34,7 +34,8 @@ test('actions_check practice', async ({page}) => {
     await page.getByLabel('Yes').check()
     await page.getByLabel('Yes', { exact: true }).check()
     await page.locator('#yesRadio').check()
-    await page.getByRole('radio').first().check()     
+    await page.getByRole('radio').first().check()   
+    await page.getByRole('radio').first().uncheck()     
 
     await page.close();
 

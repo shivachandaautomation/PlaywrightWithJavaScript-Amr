@@ -1,0 +1,1 @@
+//premitive data types examples
